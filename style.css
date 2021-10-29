@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header-top {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header, .footer{
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 150px;
+}
+
+.header{
+    flex-direction: column;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
